@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="TerraLenta - ospitalità sostenibile ed esperienze autentiche nella natura." />
+  <meta name="keywords" content="ospitalità sostenibile, agriturismo, natura, turismo lento, TerraLenta" />
+  <meta name="author" content="TerraLenta" />
+  <title>TerraLenta - Ospitalità sostenibile nella natura</title>
+
+  <!-- SEO & Social Preview -->
+  <meta property="og:title" content="TerraLenta" />
+  <meta property="og:description" content="Vivi la natura con lentezza e autenticità." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="URL_IMMAGINE_SOCIALE" />
+  <meta property="og:url" content="https://www.terralenta.it" />
+
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      background-color: #f5f1e9;
+      color: #4b4a36;
+      margin: 0; padding: 0;
+      line-height: 1.6;
+    }
+    header, footer {
+      background-color: #68704b;
+      color: white;
+      padding: 15px 20px;
+    }
+    nav a {
+      color: white;
+      margin-right: 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:focus, nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h1, h2 {
+      font-family: 'Georgia', serif;
+    }
+    .hero {
+      background-color: #a1ad77;
+      color: #2b2b1a;
+      padding: 40px 20px;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    button {
+      background-color: #4b4a36;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      cursor: pointer;
+      font-family: 'Georgia', serif;
+      font-size: 1rem;
+      margin-top: 15px;
+    }
+    button:focus, button:hover {
+      background-color: #2b2b1a;
+    }
+    footer p {
+      margin: 0;
+      text-align: center;
+    }
+  </style>
+
+  <!-- Web Analytics Placeholder -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'GA_MEASUREMENT_ID');
+  </script> -->
+
+</head>
+<body>
+
+<header>
+  <nav aria-label="Navigazione principale">
+    <a href="#home">Home</a>
+    <a href="#servizi">Servizi</a>
+    <a href="#galleria">Galleria</a>
+    <a href="#chi-siamo">Chi Siamo</a>
+    <a href="#contatti">Contatti</a>
+  </nav>
+</header>
+
+<main>
+  <section id="home" class="hero" aria-labelledby="titolo-home">
+    <h1 id="titolo-home">Benvenuti a TerraLenta</h1>
+    <p>Ospitalità sostenibile, esperienze lente e autentiche immerse nella natura.</p>
+    <button onclick="window.location.href='#contatti'">Prenota ora</button>
+  </section>
+
+  <section id="servizi" aria-labelledby="titolo-servizi">
+    <h2 id="titolo-servizi">Cosa offriamo</h2>
+    <p>Servizi pensati per chi ama la natura e la lentezza: alloggi ecologici, cucina locale, esperienze rurali.</p>
+  </section>
+
+  <section id="galleria" aria-labelledby="titolo-galleria">
+    <h2 id="titolo-galleria">Galleria</h2>
+    <p>Immagini autentiche del nostro territorio e struttura. (In arrivo...)</p>
+  </section>
+
+  <section id="chi-siamo" aria-labelledby="titolo-chi">
+    <h2 id="titolo-chi">Chi siamo</h2>
+    <p>Piccola realtà familiare che cura ogni dettaglio con passione e rispetto per l'ambiente e l'ospite.</p>
+  </section>
+
+  <section id="contatti" aria-labelledby="titolo-contatti">
+    <h2 id="titolo-contatti">Contattaci</h2>
+    <p>Scrivici per qualsiasi domanda, rispondiamo personalmente: <a href="mailto:info@terralenta.it">info@terralenta.it</a></p>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; TerraLenta 2025 - Tutti i diritti riservati</p>
+</footer>
+
+</body>
+</html>
